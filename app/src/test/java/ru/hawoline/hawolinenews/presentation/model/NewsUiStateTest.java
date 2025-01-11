@@ -5,6 +5,9 @@ import java.util.List;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ru.hawoline.hawolinenews.domain.Message;
+import ru.hawoline.hawolinenews.domain.NewsItemUiState;
+import ru.hawoline.hawolinenews.domain.NewsUiState;
 
 import static org.junit.Assert.*;
 
@@ -13,6 +16,7 @@ public class NewsUiStateTest {
   private final List<NewsItemUiState> newsItems = new ArrayList<>();
   private final List<Message> userMessages = new ArrayList<>();
 
+  // TODO перенести в другой пакет
   @Before
   public void setUp() {
     NewsItemUiState newsItemUiState0 = new NewsItemUiState("C++", "C++ becomes popular");

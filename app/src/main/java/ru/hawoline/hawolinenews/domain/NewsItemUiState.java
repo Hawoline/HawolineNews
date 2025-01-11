@@ -1,4 +1,4 @@
-package ru.hawoline.hawolinenews.presentation.model;
+package ru.hawoline.hawolinenews.domain;
 
 public final class NewsItemUiState {
   private final String title;

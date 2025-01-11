@@ -1,4 +1,4 @@
-package ru.hawoline.hawolinenews.presentation.model;
+package ru.hawoline.hawolinenews.domain;
 
 public final class Message {
   private final String message;

@@ -1,4 +1,4 @@
-package ru.hawoline.hawolinenews.presentation.model;
+package ru.hawoline.hawolinenews.domain;
 
 import java.util.ArrayList;
 import java.util.List;
